@@ -43,29 +43,3 @@ header h1 {
   display: inline-block;
   margin-top: 30px;
 }
-
-.general #two #sconto  {
-  margin-left: 50px;
-  font-weight: bold;
-  font-size: 16pt;
-  margin-top: 30px;
-  color: #B22222;
-  text-transform: none;
-}
-
-.general #two #javagl_id {
-  margin-left: 10px;
-  font-size: 15pt;
-  font-weight: normal;
-  color: black;
-  border-bottom: 1px solid black;
-}
-
-.general #two #message {
-  margin-left: 50px;
-  font-size: 12pt;
-  font-weight: bold;
-  color: gray;
-  display: block;
-  margin-top: 30px;
-}

@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+header, footer {
+  height: 150px;
+  background: black;
+}
+
+header h1 {
+  color: white;
+  text-align: center;
+  padding: 50px 0;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.general {
+  height: calc(100vh - 300px);
+}
+
+.general #two {
+  padding-top: 100px;
+}
+
+.general #two span  {
+  margin-left: 50px;
+  font-weight: bold;
+  font-size: 20pt;
+  text-transform: uppercase;
+  display: block;
+  margin-top: 30px;
+}
+
+.general #two p  {
+  margin-left: 50px;
+  font-weight: bold;
+  font-size: 20pt;
+  text-transform: uppercase;
+  display: inline-block;
+  margin-top: 30px;
+}
+
+.general #two #sconto  {
+  margin-left: 50px;
+  font-weight: bold;
+  font-size: 16pt;
+  margin-top: 30px;
+  color: #B22222;
+  text-transform: none;
+}
+
+.general #two #javagl_id {
+  margin-left: 10px;
+  font-size: 15pt;
+  font-weight: normal;
+  color: black;
+  border-bottom: 1px solid black;
+}
+
+.general #two #message {
+  margin-left: 50px;
+  font-size: 12pt;
+  font-weight: bold;
+  color: gray;
+  display: block;
+  margin-top: 30px;
+}

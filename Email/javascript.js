@@ -6,7 +6,7 @@ var emailUtente = prompt("Inserisci la tua email poi premi invio");
 
 var elemento = document.getElementById('mio_id');
 
-var emailCorretta;
+var emailCorretta = 0;
 
  // ciclo per vedere se l'email inserita è presente
   for (var i = 0; i < email.length; i++) {
@@ -16,7 +16,7 @@ var emailCorretta;
   }
 
 // determinazione email presente o meno
-  if (emailCorretta == 1) {
+  if (emailCorretta) {
     elemento.innerHTML = "La tua email è corretta.";
   } else {
     alert("ATTENZIONE")
